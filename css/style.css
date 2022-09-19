@@ -4,16 +4,95 @@
     --bg-color: #fff;
     --color-1: #fafafa;
     --main-text-color: #000;
-    --main-font-family: "Montserrat", sans-serif;
+    --main-font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
     --main-font-weight: 400;
     --main-font-size: 16px;
 }
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    background-color: var(--bg-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
+    color: var(--main-text-color);
+    line-height: 1;
+}
 /* ---CONTAINER---------------------------------------------- */
 .container {
-    max-width: 1000px;
+    max-width: 1100px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
 /* ---SECTIONS---------------------------------------------- */
 
+.header {
+    width: 100%;
+    height: 96px;
+}
+.header__cap {
+    height: 5px;
+    margin: 0px;
+    background-color:#FF7500;
+    border: none;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+.header__logo {
+}
+.header__logo-img {
+}
+.header__nav {
+}
+.header__nav-list {
+    display: flex;
+    align-items: center;
+}
+.header__nav-item {
+    position: relative;
+}
+.header__nav-item:not(:last-child){
+    margin: 0px 32px 0px 0px;
+}
+.header__nav-item.active::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #FF7500;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+.header__nav-link {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: calc(15 / 13 * 100%);
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: all 0.2s linear 0s;
+}
+.header__nav-link:hover{
+    color: #FF7500;
+}
+.header__nav-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    background-color: #FF7500;
+    border-radius: 4px;
+    border: none; 
+    color: #fff;
+}
 /* MEDIA QUERY 2560px 1440px 1024px 768px 425px 375px 320px*/
