@@ -102,7 +102,7 @@ body{
     line-height: calc(15 / 13 * 100%);
     color: var(--main-text-color);
     text-decoration: none;
-    transition: all 0.2s linear 0s;
+    transition: all 0.2s ease-in-out;
 }
 .header__nav-link:hover{
     color: #FF7500;
@@ -221,7 +221,7 @@ body{
 /* Sale Section */
 .sale {
     min-height: 419px;
-    padding: 85px 0px 0px 0px;
+    padding: 85px 0px 160px 0px;
 }
 .sale__container {
     
@@ -260,4 +260,74 @@ body{
 .sale__img {
     position: relative;
     top: -64px;
+}
+
+/* Footer section */
+.footer {
+    min-height: 507px;
+    background-color: #F8F8F8;
+    padding: 56px 0px 0px 0px;
+}
+.footer__container {
+}
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin: 0px 0px 40px 0px;
+}
+.footer__logo {
+}
+.footer__logo-img {
+}
+.footer__socials {
+}
+.footer__socials-list {
+    display: flex;
+}
+.footer__socials-item {
+}
+.footer__socials-item:not(:last-child){
+    margin: 0px 16px 0px 0px;
+}
+.footer__socials-link {
+    font-size: 24px;
+    color: #252420;
+    transition: all 0.3s ease-in-out;
+}
+.footer__socials-link:hover{
+    color: #FF7500;
+}
+.footer_hr{
+    border: none;
+    width: 100%;
+    height: 2px;
+    background: rgba(37, 36, 32, 0.5);
+    margin: 0px 0px 64px 0px;
+}
+.footer__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer__column {
+    max-width: 224px;
+    flex: 0 1 25%;
+}
+.footer__list {
+}
+.footer__list *:not(:last-child){
+    margin: 0px 0px 16px 0px;
+}
+.footer__item {
+}
+.footer__link {
+    line-height: calc(18 / 16 * 100%);
+    color: #252420;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.footer__link:hover{
+    color: #FF7500;
 }
