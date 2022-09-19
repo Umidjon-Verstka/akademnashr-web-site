@@ -70,12 +70,6 @@ body{
     align-items: center;
     padding: 16px 15px;
 }
-.header__logo {
-}
-.header__logo-img {
-}
-.header__nav {
-}
 .header__nav-list {
     display: flex;
     align-items: center;
@@ -107,8 +101,6 @@ body{
 .header__nav-link:hover{
     color: #FF7500;
 }
-.header__nav-btn {
-}
 /* MEDIA QUERY 2560px 1440px 1024px 768px 425px 375px 320px*/
 
 /* ---HERO Content-------------------------------------- */
@@ -125,11 +117,6 @@ body{
     align-items: center;
     height: 488px;
 }
-.hero-content__column {
-}
-.hero-content__line {
-    
-}
 .hero-content__heading {
     font-weight: 700;
     font-size: 40px;
@@ -144,8 +131,6 @@ body{
     line-height: calc(24 / 16 * 100%);
     letter-spacing: 0.5px;
     color: #fff;
-}
-.hero-content__btn {
 }
 .hero-content__img {
     position: relative;
@@ -167,8 +152,6 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-.features__row {
-}
 .features__row:nth-child(2){
     display: flex;
     flex-wrap: wrap;
@@ -189,8 +172,6 @@ body{
     max-width: 340px;
     flex: 1 1 33.333%;
 }
-.features__item {
-}
 .features__item-icon {
     width: 100px;
     height: 100px;
@@ -200,8 +181,6 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0px 0px 32px 0px;
-}
-.features__item-img {
 }
 .features__item-title {
     font-weight: 700;
@@ -222,9 +201,6 @@ body{
 .sale {
     min-height: 419px;
     padding: 85px 0px 160px 0px;
-}
-.sale__container {
-    
 }
 .sale__row {
     height: 419px;
@@ -253,10 +229,6 @@ body{
     letter-spacing: 0.5px;
     color: #fff;
 }
-.sale__btn {
-}
-.sale_box-img {
-}
 .sale__img {
     position: relative;
     top: -64px;
@@ -268,8 +240,6 @@ body{
     background-color: #F8F8F8;
     padding: 56px 0px 0px 0px;
 }
-.footer__container {
-}
 .footer__top {
     display: flex;
     justify-content: space-between;
@@ -277,16 +247,8 @@ body{
     height: 60px;
     margin: 0px 0px 40px 0px;
 }
-.footer__logo {
-}
-.footer__logo-img {
-}
-.footer__socials {
-}
 .footer__socials-list {
     display: flex;
-}
-.footer__socials-item {
 }
 .footer__socials-item:not(:last-child){
     margin: 0px 16px 0px 0px;
@@ -315,12 +277,8 @@ body{
     max-width: 224px;
     flex: 0 1 25%;
 }
-.footer__list {
-}
 .footer__list *:not(:last-child){
     margin: 0px 0px 16px 0px;
-}
-.footer__item {
 }
 .footer__link {
     line-height: calc(18 / 16 * 100%);
