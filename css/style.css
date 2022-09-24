@@ -70,6 +70,15 @@ body{
     align-items: center;
     padding: 16px 15px;
 }
+.header__logo{
+    transition: all 0.2s ease-in-out;
+}
+.header__logo:hover{
+    opacity: 0.8;
+}
+.header__logo:active{
+    opacity: 0.6;
+}
 .header__nav-list {
     display: flex;
     align-items: center;
@@ -100,6 +109,20 @@ body{
 }
 .header__nav-link:hover{
     color: #FF7500;
+    opacity: 0.8;
+}
+.header__nav-link:active{
+    color: #FF7500;
+    opacity: 0.6;
+}
+.header__nav-btn{
+    transition: all 0.2s ease-in-out;
+}
+.header__nav-btn:hover{
+    opacity: 0.8;
+}
+.header__nav-btn:active{
+    opacity: 0.6;
 }
 /* MEDIA QUERY 2560px 1440px 1024px 768px 425px 375px 320px*/
 
@@ -137,7 +160,15 @@ body{
     top: 40px;
     filter: drop-shadow(24px 24px 0px rgba(255, 117, 0, 0.6));
 }
-
+.hero-content__btn{
+    transition: all 0.2s ease-in-out;
+}
+.hero-content__btn:hover{
+    opacity: 0.8;
+}
+.hero-content__btn:active{
+    opacity: 0.6;
+}
 
 /* MEDIA QUERY 2560px 1440px 1024px 768px 425px 375px 320px*/
 
@@ -233,7 +264,15 @@ body{
     position: relative;
     top: -64px;
 }
-
+.sale__btn{
+    transition: all 0.2s ease-in-out;
+}
+.sale__btn:hover{
+    opacity: 0.8;
+}
+.sale__btn:active{
+    opacity: 0.6;
+}
 /* Footer section */
 .footer {
     min-height: 507px;
@@ -247,6 +286,15 @@ body{
     height: 60px;
     margin: 0px 0px 40px 0px;
 }
+.footer__logo{
+    transition: all 0.2s ease-in-out;
+}
+.footer__logo:hover{
+    opacity: 0.8;
+}
+.footer__logo:active{
+    opacity: 0.6;
+}
 .footer__socials-list {
     display: flex;
 }
@@ -258,8 +306,16 @@ body{
     color: #252420;
     transition: all 0.3s ease-in-out;
 }
+.footer__socials-link{
+    transition: all 0.2s ease-in-out;
+}
 .footer__socials-link:hover{
     color: #FF7500;
+    opacity: 0.8;
+}
+.footer__socials-link:active{
+    color: #FF7500;
+    opacity: 0.6;
 }
 .footer_hr{
     border: none;
@@ -286,6 +342,13 @@ body{
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 }
+.footer__link{
+    transition: all 0.2s ease-in-out;
+}
 .footer__link:hover{
     color: #FF7500;
+    opacity: 0.8;
+}
+.footer__link:active{
+    opacity: 0.6;
 }
